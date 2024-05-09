@@ -1106,7 +1106,7 @@ figure {
   font-weight: normal;
   color: #838379;
 }
-.alumni::after{
+.alumni::after {
   content: "";
   display: table;
   margin: 1.5em auto;
