@@ -1106,14 +1106,6 @@ figure {
   font-weight: normal;
   color: #838379;
 }
-.alumni::after {
-  content: "";
-  display: table;
-  margin: 1.5em auto;
-  width: 3em;
-  height: 1px;
-  background-color: #101820;
-}
 .member-name {
   text-transform: uppercase;
   text-align: center;
