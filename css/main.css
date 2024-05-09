@@ -1091,6 +1091,28 @@ figure {
   transition: all 300ms ease-out;
 }
 .alumni {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1.625em 0;
+  font-weight: bold;
+}
+.alumni::before {
+  content: attr(data-text);
+  position: relative;
+  display: table;
+  margin: 1.5em auto;
+  font-size: 0.625em;
+  line-height: 1;
+  font-weight: normal;
+  color: #838379;
+}
+.alumni::after{
+  content: "";
+  display: table;
+  margin: 1.5em auto;
+  width: 3em;
+  height: 1px;
+  background-color: #101820;
 }
 .member-name {
   text-transform: uppercase;
