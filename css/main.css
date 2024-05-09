@@ -1093,7 +1093,7 @@ figure {
 .alumni {
   text-transform: uppercase;
   text-align: center;
-  margin: 1.625em 0;
+  margin: 0 0;
   font-weight: bold;
 }
 .alumni::before {
